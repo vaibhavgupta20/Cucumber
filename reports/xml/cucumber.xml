@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.250308">
+    <testcase classname="logging in to facebook.com" name="Success Login" time="31.250308">
+        <system-out>
+            <![CDATA[Given i open "Chrome" and go to "http://facebook.com".......................passed
+Then i enter "username" as "vaibhavcool20@protonmail.com"...................passed
+And i enter "password" as "LSKWzGW4uN]".....................................passed
+And i click on "loginbutton"................................................passed
+Then login should be sucessful and "profile" should be visible..............passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

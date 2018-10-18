@@ -1,0 +1,136 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Success Login",
+        "description": "",
+        "id": "logging-in-to-facebook.com;success-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7505231189,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i open \"Chrome\" and go to \"http://facebook.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 8
+                },
+                {
+                  "val": "http://facebook.com",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginTest.gotofacebook(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 494905992,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i enter \"username\" as \"vaibhavcool20@protonmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 9
+                },
+                {
+                  "val": "vaibhavcool20@protonmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginTest.i_enter_username_and_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110426119,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i enter \"password\" as \"LSKWzGW4uN]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 9
+                },
+                {
+                  "val": "LSKWzGW4uN]",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginTest.i_enter_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2434916960,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i click on \"loginbutton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginbutton",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginTest.i_click_on_loginbutton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20032274999,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login should be sucessful and \"profile\" should be visible",
+            "match": {
+              "arguments": [
+                {
+                  "val": "profile",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginTest.login_should_be_sucessful(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 672552738,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I close the browser",
+            "match": {
+              "location": "LoginTest.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "logging in to facebook.com",
+    "description": "",
+    "id": "logging-in-to-facebook.com",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
